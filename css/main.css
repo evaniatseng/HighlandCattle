@@ -1,3 +1,82 @@
-div{
-    /*border: 1px solid navy;*/
+html,
+body {
+    height: 100%;
+    min-width: 405px;
+}
+
+.page-top {
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.page-top-text {
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 0%);
+}
+.page-top-index{
+    background-image: url(../images/cattle@1018x679.jpg);
+}
+.page-top-intro{
+    background-image: url(../images/scotland1@1049x696.jpg);
+}
+.page-top-spots{
+    background-image: url(../images/scotland2@1014x761.jpg);
+}
+.page-top-goVisit{
+    background-image: url(../images/scotlandHiking@1095x730.jpg);
+}
+
+.page-quote {
+    height: 20%;
+    position: relative;
+}
+
+.page-quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.container-description{
+    text-align: justify;
+}
+.container-description .pic1, .container-description .pic2, .container-description .pic3{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-description .pic1{
+    background-image: url(../images/appearance2@672x448.jpg);
+}
+.container-description .pic2{
+    background-image: url(../images/appearance1@936x684.jpg);
+}
+.container-description .pic3{
+    background-image: url(../images/history@1200x732.jpg);
+}
+
+.fa {
+    margin: 10px;
+    text-align: center;
+    width: 50px;
+    font-size: 23px;
+    border-radius: 5px;
+    background: #2d323e47;
+    color: white;
+}
+
+
+
+footer {
+    background-color: #E8F2F7;
 }
